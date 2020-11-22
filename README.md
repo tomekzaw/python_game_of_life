@@ -5,7 +5,7 @@ Written in Python with a great help of [NumPy](https://www.numpy.org/), [SciPy](
 
 ## Rules
 ```py
-return (alive & (two | three)) | (dead & three)
+return three | (two & alive)
 ```
 
 ## Examples
