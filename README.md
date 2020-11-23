@@ -22,6 +22,12 @@ python example_breeder.py
 ```
 ![](output/breeder.gif)
 
+### Puffer train
+```sh
+python puffer_train.py
+```
+![](output/puffer_train.gif)
+
 ### Random state
 ```sh
 python example_random.py
