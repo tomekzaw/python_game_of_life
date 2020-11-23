@@ -17,10 +17,10 @@ mask = np.array([
 
 
 def step(alive: np.array) -> np.array:
-    neighbours_counts = convolve2d(alive, mask, mode='same')
-    two = (neighbours_counts == 2)
-    three = (neighbours_counts == 3)
-    return three | (two & alive)
+    neighbours_count = convolve2d(alive, mask, mode='same')
+    two_neighbours = (neighbours_count == 2)
+    three_neighbours = (neighbours_count == 3)
+    return three_neighbours | (two_neighbours & alive)
 
 
 def period(cells: np.array) -> int:
