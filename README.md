@@ -10,11 +10,11 @@ return three | (two & alive)
 
 ## Examples
 
-### Gosper's glider gun
+### Gosper glider gun
 ```sh
-python example_gospers_glider_gun.py
+python example_gosper_glider_gun.py
 ```
-![](output/gospers_glider_gun.gif)
+![](output/gosper_glider_gun.gif)
 
 ### Breeder
 ```sh
